@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1 0 30%;
+  padding: 4rem;
+  justify-content: space-between;
+}
+
+.column img {
+  max-width: 30rem;
+  width: auto;
+  height: auto;
+}
+
+.column table,
+thead,
+th,
+tr,
+td {
+  border-collapse: collapse;
+  border: 3px solid burlywood;
+  padding: 10px;
+  text-align: center;
+}
+
+.column table {
+  table-layout: fixed;
+  width: 40rem;
+}
+
+.column thead th:nth-child(1) {
+  width: 10%;
+}
+.column thead th:nth-child(2) {
+  width: 40%;
+}
+.column thead th:nth-child(3) {
+  width: 40%;
+}

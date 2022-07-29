@@ -1,0 +1,21 @@
+.form {
+  margin: 2rem 0;
+  width: 85rem;
+}
+
+.form label {
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.form input {
+  display: block;
+  width: 85rem;
+  margin: 0 1rem;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}
